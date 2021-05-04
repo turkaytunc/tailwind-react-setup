@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  @apply bg-red-600 rounded-full mr-5 ml-5 mt-20;
 }
 
 .App-logo {
@@ -32,6 +32,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
